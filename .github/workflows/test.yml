@@ -18,10 +18,4 @@ jobs:
      steps:
        - name: ask how the person is
          run: echo "how are you?"           
- 
- 
-  
      
-     steps:
-       - name: ask how the person is
-         run: echo "how are you?"    
