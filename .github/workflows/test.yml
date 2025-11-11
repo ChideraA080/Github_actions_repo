@@ -4,12 +4,14 @@ on:
   push:
     branches:
       - main
+      
 jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
        - name: Echo Hello
          run: echo "hello world"
+         
 
  how-are-you:
      runs-on: ubuntu-latest
@@ -19,7 +21,7 @@ jobs:
  
  
   
-     runs-on: ubuntu-latest
+     
      steps:
        - name: ask how the person is
          run: echo "how are you?"    
